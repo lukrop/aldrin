@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <MyObjectBuilder_Checkpoint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CurrentSector x="0" y="0" z="0" />
-  <GameTime>2081-01-05T04:32:02.672</GameTime>
+  <GameTime>2081-01-05T08:51:15.152</GameTime>
   <SessionName>Aldrin</SessionName>
   <SpectatorPosition>
     <Position x="-0" y="0" z="-0" />
@@ -13,9 +13,9 @@
   <ControlledObject>-5624853211109984663</ControlledObject>
   <Password />
   <Description>FU</Description>
-  <LastSaveTime>2014-05-05T23:53:22.0680959+02:00</LastSaveTime>
+  <LastSaveTime>2014-05-06T13:27:22.7788716+02:00</LastSaveTime>
   <WorldID>a3cfc7b1-df01-45dc-9032-465c2c8b52b3</WorldID>
-  <SpectatorDistance>2.74087429</SpectatorDistance>
+  <SpectatorDistance>4.14381</SpectatorDistance>
   <Players>
     <dictionary>
       <item>
@@ -42,21 +42,21 @@
                 <Key xsi:type="xsd:long">4796226405834353015</Key>
                 <Value xsi:type="MyCameraControllerSettings">
                   <Controller>Entity</Controller>
-                  <Distance>65.50985</Distance>
+                  <Distance>51.5913048</Distance>
                 </Value>
               </item>
               <item>
                 <Key xsi:type="xsd:long">9159175008358994705</Key>
                 <Value xsi:type="MyCameraControllerSettings">
-                  <Controller>ThirdPersonSpectator</Controller>
-                  <Distance>19.6468925</Distance>
+                  <Controller>Entity</Controller>
+                  <Distance>22.1835938</Distance>
                 </Value>
               </item>
               <item>
                 <Key xsi:type="xsd:long">-9188388110056233849</Key>
                 <Value xsi:type="MyCameraControllerSettings">
                   <Controller>ThirdPersonSpectator</Controller>
-                  <Distance>10.8147173</Distance>
+                  <Distance>13.1987982</Distance>
                 </Value>
               </item>
               <item>
@@ -77,14 +77,14 @@
                 <Key xsi:type="xsd:long">-5624853211109984663</Key>
                 <Value xsi:type="MyCameraControllerSettings">
                   <Controller>Entity</Controller>
-                  <Distance>2.74087429</Distance>
+                  <Distance>4.14381</Distance>
                 </Value>
               </item>
               <item>
                 <Key xsi:type="xsd:long">4858591476100426593</Key>
                 <Value xsi:type="MyCameraControllerSettings">
                   <Controller>ThirdPersonSpectator</Controller>
-                  <Distance>15.226141</Distance>
+                  <Distance>15.2261457</Distance>
                 </Value>
               </item>
               <item>
@@ -106,6 +106,20 @@
                 <Value xsi:type="MyCameraControllerSettings">
                   <Controller>ThirdPersonSpectator</Controller>
                   <Distance>2.639521</Distance>
+                </Value>
+              </item>
+              <item>
+                <Key xsi:type="xsd:long">3390557402795394001</Key>
+                <Value xsi:type="MyCameraControllerSettings">
+                  <Controller>ThirdPersonSpectator</Controller>
+                  <Distance>37.6411438</Distance>
+                </Value>
+              </item>
+              <item>
+                <Key xsi:type="xsd:long">6207298567140376492</Key>
+                <Value xsi:type="MyCameraControllerSettings">
+                  <Controller>ThirdPersonSpectator</Controller>
+                  <Distance>21.03654</Distance>
                 </Value>
               </item>
             </dictionary>
@@ -130,7 +144,7 @@
       </Slot>
       <Slot>
         <Index>2</Index>
-        <Item>PhysicalGunObject:HandDrillItem</Item>
+        <Item>CubeBlock:LargeBlockArmorSlope</Item>
       </Slot>
       <Slot>
         <Index>3</Index>
@@ -138,23 +152,23 @@
       </Slot>
       <Slot>
         <Index>4</Index>
-        <Item>CubeBlock:LargeBlockArmorSlope</Item>
-      </Slot>
-      <Slot>
-        <Index>5</Index>
-        <Item>CubeBlock:LargeBlockArmorCorner</Item>
-      </Slot>
-      <Slot>
-        <Index>6</Index>
-        <Item>Conveyor:LargeBlockConveyor</Item>
-      </Slot>
-      <Slot>
-        <Index>7</Index>
         <Item>InteriorLight:SmallLight</Item>
       </Slot>
       <Slot>
+        <Index>5</Index>
+        <Item>ReflectorLight:LargeBlockFrontLight</Item>
+      </Slot>
+      <Slot>
+        <Index>6</Index>
+        <Item>CubeBlock:LargeRamp</Item>
+      </Slot>
+      <Slot>
+        <Index>7</Index>
+        <Item>Thrust:LargeBlockSmallThrust</Item>
+      </Slot>
+      <Slot>
         <Index>8</Index>
-        <Item>CubeBlock:LargeWindowEdge</Item>
+        <Item>Beacon:LargeBlockBeacon</Item>
       </Slot>
     </Slots>
     <ColorMaskHSVList>
