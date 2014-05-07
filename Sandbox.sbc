@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <MyObjectBuilder_Checkpoint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CurrentSector x="0" y="0" z="0" />
-  <GameTime>2081-01-05T12:39:36.368</GameTime>
+  <GameTime>2081-01-05T13:54:02.544</GameTime>
   <SessionName>Aldrin</SessionName>
   <SpectatorPosition>
     <Position x="-0" y="0" z="-0" />
@@ -13,7 +13,7 @@
   <ControlledObject>4436372376103900041</ControlledObject>
   <Password />
   <Description>FU</Description>
-  <LastSaveTime>2014-05-06T22:16:35.5023103+02:00</LastSaveTime>
+  <LastSaveTime>2014-05-08T00:53:34.8679254+02:00</LastSaveTime>
   <WorldID>a3cfc7b1-df01-45dc-9032-465c2c8b52b3</WorldID>
   <SpectatorDistance>2.67747545</SpectatorDistance>
   <Players>
@@ -70,14 +70,14 @@
                 <Key xsi:type="xsd:long">6207298567140376492</Key>
                 <Value xsi:type="MyCameraControllerSettings">
                   <Controller>Entity</Controller>
-                  <Distance>28.9159412</Distance>
+                  <Distance>31.6961288</Distance>
                 </Value>
               </item>
               <item>
                 <Key xsi:type="xsd:long">3390557402795394001</Key>
                 <Value xsi:type="MyCameraControllerSettings">
                   <Controller>ThirdPersonSpectator</Controller>
-                  <Distance>29.21188</Distance>
+                  <Distance>40.9964371</Distance>
                 </Value>
               </item>
               <item>
@@ -87,21 +87,52 @@
                   <Distance>9.52961349</Distance>
                 </Value>
               </item>
+              <item>
+                <Key xsi:type="xsd:long">2066254175962305290</Key>
+                <Value xsi:type="MyCameraControllerSettings">
+                  <Controller>Entity</Controller>
+                  <Distance>42.81102</Distance>
+                </Value>
+              </item>
+              <item>
+                <Key xsi:type="xsd:long">8523889050759329536</Key>
+                <Value xsi:type="MyCameraControllerSettings">
+                  <Controller>ThirdPersonSpectator</Controller>
+                  <Distance>42.81102</Distance>
+                </Value>
+              </item>
+              <item>
+                <Key xsi:type="xsd:long">-3512439083960013069</Key>
+                <Value xsi:type="MyCameraControllerSettings">
+                  <Controller>ThirdPersonSpectator</Controller>
+                  <Distance>52.68951</Distance>
+                </Value>
+              </item>
+              <item>
+                <Key xsi:type="xsd:long">-193617672693795531</Key>
+                <Value xsi:type="MyCameraControllerSettings">
+                  <Controller>Entity</Controller>
+                  <Distance>200</Distance>
+                </Value>
+              </item>
+              <item>
+                <Key xsi:type="xsd:long">4858591476100426593</Key>
+                <Value xsi:type="MyCameraControllerSettings">
+                  <Controller>Entity</Controller>
+                  <Distance>15.2261372</Distance>
+                </Value>
+              </item>
+              <item>
+                <Key xsi:type="xsd:long">-3767140297552375843</Key>
+                <Value xsi:type="MyCameraControllerSettings">
+                  <Controller>Entity</Controller>
+                  <Distance>78.00736</Distance>
+                </Value>
+              </item>
             </dictionary>
           </CameraControllers>
           <PlayerEntity>4436372376103900041</PlayerEntity>
           <PlayerModel>Astronaut_White</PlayerModel>
-        </Value>
-      </item>
-      <item>
-        <Key xsi:type="xsd:unsignedLong">76561198058612627</Key>
-        <Value xsi:type="MyObjectBuilder_Player">
-          <SteamID>76561198058612627</SteamID>
-          <CameraControllers>
-            <dictionary />
-          </CameraControllers>
-          <PlayerEntity>-515499610176643621</PlayerEntity>
-          <PlayerModel>Astronaut_Blue</PlayerModel>
         </Value>
       </item>
     </dictionary>
@@ -144,7 +175,7 @@
       </Slot>
       <Slot>
         <Index>8</Index>
-        <Item>CubeBlock:LargeBlockArmorBlock</Item>
+        <Item>ConveyorConnector:ConveyorTube</Item>
       </Slot>
     </Slots>
     <ColorMaskHSVList>
@@ -380,10 +411,6 @@
         <Key xsi:type="xsd:long">4436372376103900041</Key>
         <Value xsi:type="xsd:unsignedLong">76561197972261819</Value>
       </item>
-      <item>
-        <Key xsi:type="xsd:long">-515499610176643621</Key>
-        <Value xsi:type="xsd:unsignedLong">76561198058612627</Value>
-      </item>
     </dictionary>
   </ControlledEntities>
   <Settings>
@@ -394,7 +421,7 @@
     <RefinerySpeedMultiplier>10</RefinerySpeedMultiplier>
     <OnlineMode>FRIENDS</OnlineMode>
     <MaxPlayers>16</MaxPlayers>
-    <MaxFloatingObjects>64</MaxFloatingObjects>
+    <MaxFloatingObjects>48</MaxFloatingObjects>
     <EnvironmentHostility>SAFE</EnvironmentHostility>
     <AutoHealing>true</AutoHealing>
     <EnableCopyPaste>false</EnableCopyPaste>
